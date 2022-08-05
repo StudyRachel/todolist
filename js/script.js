@@ -1,3 +1,5 @@
+
+
 let section = document.querySelector("section");
 // 設定表單按鈕行為
 let add = document.querySelector("form button");
@@ -10,7 +12,8 @@ add.addEventListener("click", e =>{
     let todoYear = form.children[1].value;
     let todoMonth = form.children[2].value;
     let todoDate = form.children[3].value;
-    // console.log(todoText ,todoYear ,todoMonth ,todoDate);
+    console.log(todoText ,todoYear,todoMonth, todoDate);
+    
 
     if (todoText === "" || todoYear === "" || todoMonth === "" || todoDate ===""){
         alert("請輸入事項！");
